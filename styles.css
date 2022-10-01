@@ -6,13 +6,13 @@
 	/* Cores */
 	--clr-white: #fff;
 	--clr-black: #222;
-	--clr-green: red;
+	--clr-red: red;
 	--clr-red-dark: hsl(360, 67%, 44%);
 	--clr-red-light: hsl(360, 71%, 66%);
 	--clr-green: green;
 	--clr-green-dark: hsl(125, 67%, 44%);
 	--clr-green-light: hsl(125, 71%, 66%);
-	--clr-green: blue;
+	--clr-blue: blue;
 	--clr-blue-dark: hsl(240, 67%, 44%);
 	--clr-blue-light: hsl(240, 71%, 66%);
 	--clr-1: hsl(210, 36%, 96%);
