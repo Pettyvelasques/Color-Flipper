@@ -6,7 +6,15 @@
 	/* Cores */
 	--clr-white: #fff;
 	--clr-black: #222;
-	--clr-red: red;
+	--clr-green: red;
+	--clr-red-dark: hsl(360, 67%, 44%);
+	--clr-red-light: hsl(360, 71%, 66%);
+	--clr-green: green;
+	--clr-green-dark: hsl(125, 67%, 44%);
+	--clr-green-light: hsl(125, 71%, 66%);
+	--clr-green: blue;
+	--clr-blue-dark: hsl(240, 67%, 44%);
+	--clr-blue-light: hsl(240, 71%, 66%);
 	--clr-1: hsl(210, 36%, 96%);
 	--clr-2: hsl(205, 86%, 17%);
 	--clr-3: hsl(205, 78%, 60%);
@@ -73,6 +81,20 @@ p {
 	margin-bottom: 1.25rem;
 	color: var(--clr-black);
 }
+main {
+	min-height: 100vh;
+	display: grid;
+	place-items: center;
+	padding: 1rem;
+}
+.section {
+	padding: 5rem 0;
+}
+.section-center {
+	width: 90vw;
+	margin: 0 auto;
+	max-width: 1170px;
+}
 @media screen and (min-width: 800px) {
 	h1 {
 		font-size: 4rem;
@@ -97,12 +119,16 @@ p {
 	}
 }
 @media screen and (min-width: 992px) {
+	.section-center {
+		width: 95vw;
+	}
 }
-main {
-	min-height: 100vh;
-	display: grid;
-	place-items: center;
-}
+
+/*
+===============
+Trocador de Cor de Fundo Aleatório
+===============
+*/
 
 /* Nav */
 nav {
@@ -141,10 +167,11 @@ nav {
 
 /* Main */
 
-.main {
+main {
 	min-height: calc(100vh - 3rem);
 	display: grid;
 	place-items: center;
+	padding: 1rem;
 }
 .container {
 	text-align: center;
