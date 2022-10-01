@@ -163,7 +163,7 @@ nav {
 	color: var(--clr-3);
 }
 
-.btn-hero {
+.btn-flipper {
 	font-family: var(--ff-primary);
 	background-color: transparent;
 	border: 2px solid var(--clr-black);
@@ -178,7 +178,7 @@ nav {
 	color: var(--clr-black);
 }
 
-.btn-hero:hover {
+.btn-flipper:hover {
 	background-color: var(--clr-black);
 	color: var(--clr-white);
 }
